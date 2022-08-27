@@ -18,7 +18,6 @@ module.exports = {
       name: 'Linkedin',
       url: 'https://www.linkedin.com/in/nirmalkumar6112',
     },
-    
   ],
 
   navLinks: [
@@ -26,13 +25,13 @@ module.exports = {
       name: 'About',
       url: '/#about',
     },
+    //{
+    //  name: 'Experience',
+    //  url: '/#jobs',
+    //},
     {
-      name: 'Experience',
-      url: '/#jobs',
-    },
-    {
-      name: 'Work',
-      url: '/#projects',
+      name: 'Certification',
+      url: '/#certification',
     },
     {
       name: 'Contact',
