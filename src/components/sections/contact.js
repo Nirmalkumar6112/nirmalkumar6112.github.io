@@ -60,7 +60,7 @@ const Contact = () => {
       <h2 className="title">Get In Touch</h2>
 
       <p>
-        I haven't done any Interships or Projects in the past. Looking forward to opportunities.
+        I haven't done any Interships or Projects in the past. Looking forward for opportunities.
         Send me a mail or contact me through various social media...
       </p>
 
