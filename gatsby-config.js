@@ -5,7 +5,7 @@ module.exports = {
     title: 'Nirmal Kumar',
     description:
       'Nirmal Kumar is a pre-final year Computer Science and Engineering at SRM University.',
-    siteUrl: 'http://brittanychiang.com', // No trailing slash allowed!
+    siteUrl: 'https://nirmalkumar6112.netlify.app', // No trailing slash allowed!
     image: '/og.png', // Path to your image you placed in the 'static' folder
     twitterUsername: '@nirmalkumar6112',
   },
