@@ -33,14 +33,14 @@ const StyledText = styled.div`
       margin-bottom: 10px;
       padding-left: 20px;
       font-family: var(--font-mono);
-      font-size: var(--fz-xs);
+      font-size: var(--fz-sm);
 
       &:before {
         content: '▹';
         position: absolute;
         left: 0;
         color: var(--green);
-        font-size: var(--fz-sm);
+        font-size: var(--fz-md);
         line-height: 12px;
       }
     }
@@ -125,8 +125,16 @@ const About = () => {
     sr.reveal(revealContainer.current, srConfig());
   }, []);
 
-  const langs = ['C', 'C++', 'Python', 'HTML', 'Javascript', 'SQL'];
-  const skills = ['Google Cloud', 'Data Science', 'AI', 'ML'];
+  const langs = ['C', 'C++', 'Python', 'HTML', 'Javascript', 'Kotlin', 'SQL'];
+  const frameworks = ['Node.js', 'React'];
+  const tools = ['Google Cloud Platform', 'Git', 'Android Studio', 'Visual Studio'];
+  const Ins_area = [
+    'Artificial Intelligence',
+    'Machine Learning',
+    'Data Analysis',
+    'Cloud Computing',
+    'Cyber Security',
+  ];
 
   return (
     <StyledAboutSection id="about" ref={revealContainer}>
@@ -137,21 +145,43 @@ const About = () => {
           <div>
             <p>
               Hello! My name is Nirmal Kumar and I love to exlpore and research a lot in the field
-              Science and Technologies.
+              of Science and Technologies.
             </p>
-
-            <p>Skills:</p>
+            <p></p>
+            <h3>Skills:</h3>
           </div>
-
-          <ul className="skills-list">
-            {skills && skills.map((skill, i) => <li key={i}>{skill}</li>)}
-          </ul>
 
           <div>
             <p></p>
             <p>Programming Languages:</p>
           </div>
-          <ul className="langs">{langs && langs.map((skill, i) => <li key={i}>{skill}</li>)}</ul>
+          <ul className="skills-list">
+            {langs && langs.map((skill, i) => <li key={i}>{skill}</li>)}
+          </ul>
+
+          <div>
+            <p></p>
+            <p>Tools & Technologies:</p>
+          </div>
+          <ul className="skills-list">
+            {tools && tools.map((skill, i) => <li key={i}>{skill}</li>)}
+          </ul>
+
+          <div>
+            <p></p>
+            <p>Frameworks:</p>
+          </div>
+          <ul className="skills-list">
+            {frameworks && frameworks.map((skill, i) => <li key={i}>{skill}</li>)}
+          </ul>
+
+          <div>
+            <p></p>
+            <p>Interested Areas:</p>
+          </div>
+          <ul className="skills-list">
+            {Ins_area && Ins_area.map((skill, i) => <li key={i}>{skill}</li>)}
+          </ul>
         </StyledText>
 
         <StyledPic>
