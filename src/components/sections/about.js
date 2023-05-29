@@ -144,7 +144,7 @@ const About = () => {
         <StyledText>
           <div>
             <p>
-              Hello! My name is Nirmal Kumar and I love to exlpore and research a lot in the field
+              Hello! My name is Nirmal Kumar and I love to explore and research a lot in the field
               of Science and Technologies.
             </p>
             <p></p>
