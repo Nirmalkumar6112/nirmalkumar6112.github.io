@@ -125,9 +125,24 @@ const About = () => {
     sr.reveal(revealContainer.current, srConfig());
   }, []);
 
-  const langs = ['C', 'C++', 'Python', 'HTML', 'Javascript', 'Kotlin', 'SQL'];
-  const frameworks = ['Node.js', 'React'];
-  const tools = ['Google Cloud Platform', 'Git', 'Android Studio', 'Visual Studio'];
+  const langs = ['C', 'C++', 'Python', 'Javascript', 'Kotlin', 'MySQL'];
+  const frameworks = ['Node.js', 'React.js', 'MongoDB', 'Express', 'Vite'];
+  const tools = [
+    'Google Cloud Platform',
+    'Microsoft Azure',
+    'Amazon Web Services (AWS)',
+    'Git',
+    'Postman API',
+    'Salesforce',
+    'ServiceNow',
+  ];
+  /*
+  const CourseWork = [
+    'Data Structures and Algorithms',
+    'Operating Systems & Netw',
+    'DBMS'
+  ];
+
   const Ins_area = [
     'Artificial Intelligence',
     'Machine Learning',
@@ -135,6 +150,7 @@ const About = () => {
     'Cloud Computing',
     'Cyber Security',
   ];
+  */
 
   return (
     <StyledAboutSection id="about" ref={revealContainer}>
@@ -143,10 +159,7 @@ const About = () => {
       <div className="inner">
         <StyledText>
           <div>
-            <p>
-              Hello! My name is Nirmal Kumar and I love to explore and research a lot in the field
-              of Science and Technologies.
-            </p>
+            <p>Hello! My name is Nirmal Kumar and I love to explore Tech...</p>
             <p></p>
             <h3>Skills:</h3>
           </div>
@@ -173,14 +186,6 @@ const About = () => {
           </div>
           <ul className="skills-list">
             {frameworks && frameworks.map((skill, i) => <li key={i}>{skill}</li>)}
-          </ul>
-
-          <div>
-            <p></p>
-            <p>Interested Areas:</p>
-          </div>
-          <ul className="skills-list">
-            {Ins_area && Ins_area.map((skill, i) => <li key={i}>{skill}</li>)}
           </ul>
         </StyledText>
 

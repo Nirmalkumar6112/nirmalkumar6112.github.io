@@ -7,16 +7,20 @@ module.exports = {
       url: 'https://github.com/nirmalkumar6112',
     },
     {
-      name: 'Instagram',
-      url: 'https://www.instagram.com/nirmalkumar6112',
+      name: 'Linkedin',
+      url: 'https://www.linkedin.com/in/nirmalkumar6112',
+    },
+    {
+      name: 'Linktree',
+      url: 'https://linktr.ee/nirmalkumar6112',
     },
     {
       name: 'Twitter',
       url: 'https://twitter.com/nirmalkumar6112',
     },
     {
-      name: 'Linkedin',
-      url: 'https://www.linkedin.com/in/nirmalkumar6112',
+      name: 'Instagram',
+      url: 'https://www.instagram.com/nirmalkumar6112',
     },
   ],
 
@@ -29,6 +33,10 @@ module.exports = {
     //  name: 'Experience',
     //  url: '/#jobs',
     //},
+    {
+      name: 'Projects',
+      url: '/#projects',
+    },
     {
       name: 'Certification',
       url: '/#certification',

@@ -63,7 +63,10 @@ const Hero = () => {
   const three = <h3 className="big-heading">I am Tech Enthusiast</h3>;
   const four = (
     <>
-      <p>I’m a Pre-Final year Computer Science and Engineering Student at SRM University.</p>
+      <p>
+        I’m a Final year Computer Science and Engineering Student at SRM Institute of Science and
+        Technology, Chennai | MLSA Alpha (Microsoft Learn Student Ambassadors).
+      </p>
     </>
   );
 
