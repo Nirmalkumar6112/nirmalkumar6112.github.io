@@ -126,7 +126,7 @@ const About = () => {
   }, []);
 
   const langs = ['C', 'C++', 'Python', 'Javascript', 'Kotlin', 'MySQL'];
-  const frameworks = ['Node.js', 'React.js', 'MongoDB', 'Express', 'Vite'];
+  const frameworks = ['Node.js', 'React.js', 'Next.js', 'MongoDB', 'Express', 'Vite'];
   const tools = [
     'Google Cloud Platform',
     'Microsoft Azure',

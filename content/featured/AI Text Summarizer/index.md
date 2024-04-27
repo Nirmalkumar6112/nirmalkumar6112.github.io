@@ -1,5 +1,5 @@
 ---
-date: '2'
+date: '3'
 title: 'AI Text Summarizer App'
 cover: './Text_Summarizer_demo.png'
 github: 'https://replit.com/@nirmalkumar6112/AI-Text-Summarizer-App'
