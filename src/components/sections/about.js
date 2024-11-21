@@ -125,8 +125,8 @@ const About = () => {
     sr.reveal(revealContainer.current, srConfig());
   }, []);
 
-  const langs = ['C', 'C++', 'Python', 'Javascript', 'Kotlin', 'MySQL'];
-  const frameworks = ['Node.js', 'React.js', 'Next.js', 'MongoDB', 'Express', 'Vite'];
+  const langs = ['C', 'C++', 'Python', 'Javascript', 'Rust', 'MySQL'];
+  const frameworks = ['Node.js', 'React.js', 'Next.js', 'MongoDB'];
   const tools = [
     'Google Cloud Platform',
     'Microsoft Azure',
@@ -159,7 +159,7 @@ const About = () => {
       <div className="inner">
         <StyledText>
           <div>
-            <p>Hello! My name is Nirmal Kumar and I love to explore Tech...</p>
+            <p>Hello! My name is Nirmal Kumar and I love to explore Tech, Driven by Curiosity!</p>
             <p></p>
             <h3>Skills:</h3>
           </div>

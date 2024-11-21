@@ -64,7 +64,7 @@ const Hero = () => {
   const four = (
     <>
       <p>
-        I’m a Final year Computer Science and Engineering Student at SRM Institute of Science and
+        I’m a Computer Science and Engineering Graduate from SRM Institute of Science and
         Technology, Chennai | MLSA Alpha (Microsoft Learn Student Ambassadors).
       </p>
     </>
