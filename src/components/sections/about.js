@@ -125,7 +125,7 @@ const About = () => {
     sr.reveal(revealContainer.current, srConfig());
   }, []);
 
-  const langs = ['C', 'C++', 'Python', 'Javascript', 'Rust', 'MySQL'];
+  const langs = ['C', 'C++', 'Python', 'Java', 'Javascript', 'Rust', 'MySQL'];
   const frameworks = ['Node.js', 'React.js', 'Next.js', 'MongoDB'];
   const tools = [
     'Google Cloud Platform',
